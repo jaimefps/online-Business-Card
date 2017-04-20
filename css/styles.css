@@ -13,7 +13,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 20%;
+  margin-top: 100px;
   padding: 20px;
   border-radius: 2px;
   background: -webkit-linear-gradient(left top, rebeccapurple, lightcoral);
@@ -24,6 +24,7 @@ body {
 .container > div {
   margin-top: 10px;
   margin-block-end: 20px;
+  width: 240px;
 }
 .links { 
   display: flex;
@@ -69,20 +70,23 @@ body {
   align-items: center;
 }
 .photo {
-  height: 300px;
-  width: 360px;
+  height: 200px;
+  width: 200px;
   background-image: url('./me.png');
   background-size: 100%;
   margin-bottom: 15px;
   border-radius: 2px;
 }
-h2 {
-   margin: 5px; 
+h1 {
+   margin: 5px;
+   font-size: 20px; 
 }
 h3 {
   margin: 1px;
-  margin-bottom: 20px;
+  font-size: 16px;
+  margin-bottom: 25px;
 }
 h4 {
   margin: 3px;
+  font-size: 14px;
 }
