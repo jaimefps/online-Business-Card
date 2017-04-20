@@ -1,0 +1,88 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  letter-spacing: 1px;
+}
+body {
+  display: flex;
+  justify-content: center;
+  background-color: ghostwhite;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20%;
+  padding: 20px;
+  border-radius: 2px;
+  background: -webkit-linear-gradient(left top, rebeccapurple, lightcoral);
+  background: -o-linear-gradient(bottom right, rebeccapurple, lightcoral);
+  background: -moz-linear-gradient(bottom right, rebeccapurple, lightcoral);
+  background: linear-gradient(to bottom right, rebeccapurple, lightcoral);
+}
+.container > div {
+  margin-top: 10px;
+  margin-block-end: 20px;
+}
+.links { 
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.nav-bttn {
+  margin: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  background: -webkit-linear-gradient(darkblue, blue);
+  background: -o-linear-gradient(darkblue, blue);
+  background: -moz-linear-gradient(darkblue, blue); 
+  background: linear-gradient(darkblue, blue);
+}
+.nav-bttn:hover {
+  background: -webkit-linear-gradient(blue, aqua);
+  background: -o-linear-gradient(blue, aqua);
+  background: -moz-linear-gradient(blue, aqua); 
+  background: linear-gradient(blue, aqua);  
+}
+.profile {
+  width: 80%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.photo {
+  height: 300px;
+  width: 360px;
+  background-image: url('./me.png');
+  background-size: 100%;
+  margin-bottom: 15px;
+  border-radius: 2px;
+}
+h2 {
+   margin: 5px; 
+}
+h3 {
+  margin: 1px;
+  margin-bottom: 20px;
+}
+h4 {
+  margin: 3px;
+}
